@@ -1,0 +1,6 @@
+services:
+  saucedemo:
+    image: steilerdev/sauce-demo:latest
+    ports:
+      - "8081:3000"
+    restart: unless-stopped
